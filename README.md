@@ -1,9 +1,12 @@
 ## 114-1 Introduction to the Internet
 
+<img src="/img/hw1.png" width="400"/>
+
 ### Homework 1 : Personal Website
 This is my **personal website** !<br>
 It introduces who I am, my experiences, projects, and life. <br>
 The source code is maintained in a separate repository.
+
 #### Links:
 - Website Repo : [personalweb](https://github.com/PhoebeLu1011/personalweb)  
 - My Website : [My Personal Website](https://phoebelu1011.github.io/personalweb/)
