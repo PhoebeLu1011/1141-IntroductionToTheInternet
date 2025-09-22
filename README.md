@@ -1,8 +1,8 @@
 ## 114-1 Introduction to the Internet
 
 ### Homework 1 : Personal Website
-This is my **personal website** !
-It introduces who I am, my experiences, projects, and life.  
+This is my **personal website** ! \n
+It introduces who I am, my experiences, projects, and life.  \n
 The source code is maintained in a separate repository.
 #### Links:
 - Website Repo : [personalweb](https://github.com/PhoebeLu1011/personalweb)  
@@ -18,12 +18,12 @@ The website contains the following sections:
 ```
 personalweb/
 │── index.html # Homepage
-│── girlstech.html # Girls! TECH Action page
-│── qcewksexp.html # QCE Workshop experience page
+│── girlstech.html # Blog page Ⅰ
+│── qcewksexp.html # Blog page Ⅱ
 │── css/ # Stylesheets
 │── js/ # JavaScript files
 │── img/ # Images
-│── scss/ # SCSS source files
-│── lib/ # External libraries
+│── scss/ 
+│── lib/ 
 ```
   
