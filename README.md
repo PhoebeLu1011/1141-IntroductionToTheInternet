@@ -1,7 +1,7 @@
 ## 114-1 Introduction to the Internet
 
 ### Homework 1 : Personal Website
-This is my **personal website** ! /n
+This is my **personal website** !\n
 It introduces who I am, my experiences, projects, and life.  \n
 The source code is maintained in a separate repository.
 #### Links:
