@@ -3,9 +3,10 @@
 - **Course:** 114-1 Introduction to the Internet  
 - **Instructor:** Prof. Yun-Cheng Tsai
 
+### Homework 1 : Personal Website
+
 <img src="/img/hw1.png" width="400"/>
 
-### Homework 1 : Personal Website
 This is my **personal website** !<br>
 It introduces who I am, my experiences, projects, and life. <br>
 The source code is maintained in a separate repository.
