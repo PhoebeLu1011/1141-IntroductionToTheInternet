@@ -1,5 +1,8 @@
 ## 114-1 Introduction to the Internet
 
+### **Course:** 114-1 Introduction to the Internet  
+### **Instructor:** Prof. Yun-Cheng Tsai
+
 <img src="/img/hw1.png" width="400"/>
 
 ### Homework 1 : Personal Website
@@ -17,7 +20,7 @@ The website contains the following sections:
 - **Portfolio** – selected projects and works  
 - **Blog** – reflections and personal thoughts
   
-### Project Structure  
+#### Project Structure  
 ```
 personalweb/
 │── index.html # Homepage
