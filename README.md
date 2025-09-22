@@ -1,7 +1,7 @@
 ## 114-1 Introduction to the Internet
 
-### **Course:** 114-1 Introduction to the Internet  
-### **Instructor:** Prof. Yun-Cheng Tsai
+- **Course:** 114-1 Introduction to the Internet  
+- **Instructor:** Prof. Yun-Cheng Tsai
 
 <img src="/img/hw1.png" width="400"/>
 
