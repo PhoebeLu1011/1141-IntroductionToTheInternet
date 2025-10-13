@@ -32,4 +32,8 @@ personalweb/
 │── scss/ 
 │── lib/ 
 ```
+### Homework 2 
+### 1. 台北城市儀表板 API 呼叫展示
+### 2. AI API 串接展示
+
   
