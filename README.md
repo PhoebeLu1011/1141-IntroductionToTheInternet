@@ -34,7 +34,12 @@ personalweb/
 ```
 ### Homework 2 
 ### 1. 台北城市儀表板 API 呼叫展示
+[Youtube Link]()
 ### 2. AI API 串接展示
+#### 展示影片:
+[Youtube Link]()
+#### 程式碼:
+[code](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/tree/main/HW2)
 #### 📄 更新說明
 1. [AItest.tsx](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/blob/main/HW2/AItest.tsx)：
    
