@@ -42,9 +42,17 @@ personalweb/
      import NpsHeader from './NpsHeader';
      ```
    - 介面優化
+  
+     
 2. 新增 [NpsHeader.tsx](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/blob/main/HW2/NpsHeader.tsx):
+
+   
    - 連接美國國家公園（NPS）API，讓使用者可以查詢公園、營地、遊客中心等相關資訊。
+  
+     
    - 使用者可自行選擇多個景點，系統會將這些地點的資訊一併提供給 Gemini 模型，讓模型根據所選地點產生更貼近實際旅遊情境的回答（例如自動規劃行程、推薦活動或生成圖片）。
+  
+     
    ```tsx
     function chooseItem(p: ParkLike) {
     setSelectedList(prev => {
