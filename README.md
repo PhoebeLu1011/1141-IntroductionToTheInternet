@@ -37,7 +37,7 @@ personalweb/
 [Youtube Link](https://youtu.be/zo0HDsH75ZI)
 ### 2. AI API 串接展示
 #### 展示影片:
-[Youtube Link](https://youtu.be/zo0HDsH75ZI)
+[Youtube Link](https://youtu.be/J5DNlgfXk50)
 #### 程式碼:
 [code](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/tree/main/HW2)
 #### 📄 更新說明
