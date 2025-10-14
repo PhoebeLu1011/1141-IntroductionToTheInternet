@@ -1,8 +1,17 @@
-## 114-1 Introduction to the Internet
+## **Course:** 114-1 Introduction to the Internet
 
-- **Course:** 114-1 Introduction to the Internet
-- 
-### Homework 1 : Personal Website
+## Table of Contents
+### HW1
+* [程式碼](https://github.com/PhoebeLu1011/personalweb)
+* [Description](#homework1)
+
+### HW2
+* [Code](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/tree/main/HW2)
+* [Description](#homework2)
+
+
+### homework1
+### Personal Website
 
 <img src="/img/hw1.png" width="400"/>
 
@@ -32,7 +41,7 @@ personalweb/
 │── scss/ 
 │── lib/ 
 ```
-### Homework 2 
+### homework2 
 ### 1. 台北城市儀表板 API 呼叫展示
 [Youtube Link](https://youtu.be/zo0HDsH75ZI)
 ### 2. AI API 串接展示
@@ -40,7 +49,8 @@ personalweb/
 [Youtube Link](https://youtu.be/J5DNlgfXk50)
 #### 程式碼:
 [code](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/tree/main/HW2)
-#### 📄 更新說明
+
+#### 更新說明
 1. [AItest.tsx](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/blob/main/HW2/AItest.tsx)：
    
    - 整合 NPSHeader.tsx，可將國家公園資料 JSON 作為上下文傳給模型，強化回答內容。
@@ -50,6 +60,13 @@ personalweb/
      ```
      
    - 介面優化
+     |圖示|說明|
+     |---------|----------|
+     |<img src="/HW2/IMG/4.png" width="500"/>|初始介面|
+     |<img src="/HW2/IMG/3.png" width="500"/>|按下Fetch鍵，顯示使用者所選擇範圍之資訊，選擇按鈕旁的`官方頁面`，點下之後會跳轉至該國家公園頁面，讓使用者可以獲取更多相關資訊|
+     |<img src="/HW2/IMG/2.png" width="500"/>|使用者輸入問題，並同時將所選擇景點一併交給gemini模型，生成符合使用者指令的回答|
+
+     
   
      
 3. 新增 [NpsHeader.tsx](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/blob/main/HW2/NpsHeader.tsx):
@@ -58,7 +75,7 @@ personalweb/
    - 連接美國國家公園（NPS）API，讓使用者可以查詢公園、營地、遊客中心等相關資訊。
   
      
-   - 使用者可自行選擇多個景點，系統會將這些地點的資訊一併提供給 Gemini 模型，讓模型根據所選地點產生更貼近實際旅遊情境的回答（例如自動規劃行程、推薦活動或生成圖片）。
+   - 支援多選景點。使用者可自行選擇多個景點，系統會將這些地點的資訊一併提供給 Gemini 模型，讓模型根據所選地點產生更貼近實際旅遊情境的回覆(像是自動規劃行程、推薦活動）。
   
      
    ```tsx
