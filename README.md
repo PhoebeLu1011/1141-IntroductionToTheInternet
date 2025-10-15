@@ -2,7 +2,7 @@
 
 ## Table of Contents
 ### HW1
-* [程式碼](https://github.com/PhoebeLu1011/personalweb)
+* [Code](https://github.com/PhoebeLu1011/personalweb)
 * [Description](#homework1)
 
 ### HW2
@@ -22,6 +22,7 @@ The source code is maintained in a separate repository.
 #### Links:
 - Website Repo : [personalweb](https://github.com/PhoebeLu1011/personalweb)  
 - My Website : [My Personal Website](https://phoebelu1011.github.io/personalweb/)
+               [NTNU Website](https://web.ntnu.edu.tw/~41271122h/)
 
 The website contains the following sections:
 - **About Me** – a brief introduction of myself  
