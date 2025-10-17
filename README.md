@@ -93,12 +93,12 @@
 ### 1. Github API
 
 ### 2. KKBOX API
-此API用來顯示我的播放清單（含封面、歌名、歌手），並新增一個設定面板(可隱藏)，可輸入 Client ID / Client Secret（，按下取得 Token 後將會自動連線 KKBOX 並載入清單。
+此API用來顯示我的播放清單（含封面、歌名、歌手），並新增一個設定面板(可隱藏)，可輸入 Client ID / Client Secret ，按下取得 Token 後將會自動連線 KKBOX 並載入清單。
 #### | 功能
 - 以 OAuth2 Client Credentials 取得 Access Token。
 - 顯示播放清單標題、歌曲清單與專輯封面
 - 可橫向滑動瀏覽曲目
-- 將API存在 `localStorage` ，避免洩漏API
+  
 #### | 掛載
 於`index.html`的Blog Section的後方新增 :
 ```html
