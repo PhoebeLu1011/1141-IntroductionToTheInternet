@@ -15,9 +15,8 @@
 
 <img src="/img/hw1.png" width="400"/>
 
-#### Links:
-- Website Repo : [personalweb](https://github.com/PhoebeLu1011/personalweb)  
-- My Website : [My Personal Website](https://phoebelu1011.github.io/personalweb/)
+#### Website Repo : [personalweb](https://github.com/PhoebeLu1011/personalweb)  
+#### My Website : [My Personal Website](https://phoebelu1011.github.io/personalweb/)
                [NTNU Website](https://web.ntnu.edu.tw/~41271122h/)
 
 ### homework2 
