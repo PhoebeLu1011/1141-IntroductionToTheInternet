@@ -2,13 +2,19 @@
 
 ## Table of Contents
 ### HW1
-* [Code](https://github.com/PhoebeLu1011/personalweb)
+* [Repo.](https://github.com/PhoebeLu1011/personalweb)
 * [Description](#homework1)
 
 ### HW2
-* [Code](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/tree/main/HW2)
+* [程式碼](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/tree/main/HW2)
+* [台北城市儀表板 API 呼叫展示 YT Link](https://youtu.be/zo0HDsH75ZI)
+* [AI API 串接展示 YT Link](https://youtu.be/J5DNlgfXk50)
 * [Description](#homework2)
 
+### HW3 
+* [Repo.](https://github.com/PhoebeLu1011/1141ITTI_HW3)
+* [展示 YT Link]()
+* [Description](#HW3-個人網站串接API)
 
 ### homework1
 ### Personal Website
@@ -16,8 +22,7 @@
 <img src="/img/hw1.png" width="400"/>
 
 #### Website Repo : [personalweb](https://github.com/PhoebeLu1011/personalweb)  
-#### My Website : [My Personal Website](https://phoebelu1011.github.io/personalweb/)
-               [NTNU Website](https://web.ntnu.edu.tw/~41271122h/)
+#### My Website : [My Personal Website](https://phoebelu1011.github.io/personalweb/) [NTNU Website](https://web.ntnu.edu.tw/~41271122h/)
 
 ### homework2 
 ### 1. 台北城市儀表板 API 呼叫展示
@@ -82,4 +87,71 @@
     }
    ```
 
+### HW3-個人網站串接API
+我在我的個人網站上串接了兩個api
+### | 使用的 API
+### 1. Github API
+
+### 2. KKBOX API
+此API用來顯示我的播放清單（含封面、歌名、歌手），並新增一個設定面板(可隱藏)，可輸入 Client ID / Client Secret（，按下取得 Token 後將會自動連線 KKBOX 並載入清單。
+#### | 功能
+- 以 OAuth2 Client Credentials 取得 Access Token。
+- 顯示播放清單標題、歌曲清單與專輯封面
+- 可橫向滑動瀏覽曲目
+- 將API存在 `localStorage` ，避免洩漏API
+#### | 掛載
+於`index.html`的Blog Section的後方新增 :
+```html
+  <div id="musicroot"></div>
+```
+於App.jsx掛載元件 :
+```jsx
+import Music from './music.jsx'; 
+export default function App1() {
+  return (
+    <main style={{ padding: 24 }}>
+      <Music />
+    </main>
+  );
+}
+// React 掛載點
+const el = document.getElementById('musicroot');
+if (el) {
+  createRoot(el).render(<App1 />);
+}
+```
+
+#### | CORS 問題處理說明
+由於 KKBOX API 不允許從瀏覽器直接呼叫（因為CORS 限制），因此新增了 `server.js`，作為前端與 KKBOX API 之間的proxy。
+
+#### `server.js`:
+- 向 KKBOX 申請 Access Token
+- 轉發播放清單資料給前端
+- 避免暴露 Client Secret 並繞過 CORS 限制
+
+(1) 取得 Token：
+```bash
+POST http://localhost:4000/kkbox/token
+```
+(2) 讀取播放清單：
+```bash
+https://api.kkbox.com/v1.1/featured-playlists/{PLAYLIST_ID}
+```
+(3) 由伺服器再轉發至 KKBOX：
+```
+https://api.kkbox.com/v1.1/featured-playlists/{PLAYLIST_ID}?territory=TW
+```
+#### | 執行方式
+
+(1) 安裝後端並啟動（PORT: 4000）：
+```cmd
+npm install express node-fetch cors
+node server.js
+```
+
+(2) 另開cmd啟動前端（PORT: 5173）：
+```cmd
+npm install
+npm run dev
+```
   
