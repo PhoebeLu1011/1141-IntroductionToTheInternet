@@ -96,9 +96,8 @@
 const res = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, { headers });
 ```
 ### 2. KKBOX API
-此API用來顯示我的播放清單（含封面、歌名、歌手），並新增一個設定面板(可隱藏)，可輸入 Client ID / Client Secret ，按下取得 Token 後將會自動連線 KKBOX 並載入清單。
+此API用來顯示我的播放清單（含封面、歌名、歌手），並新增一個設定面板(可隱藏)，可輸入 Client ID / Client Secret ，按下取得 Token 後將會自動連線至 KKBOX 並載入我的播放清單。
 #### | 功能
-- 以 OAuth2 Client Credentials 取得 Access Token。
 - 顯示播放清單標題、歌曲清單與專輯封面
 - 可橫向滑動瀏覽曲目
   
@@ -125,23 +124,12 @@ if (el) {
 ```
 
 #### | CORS 問題處理說明
-由於 KKBOX API 不允許從瀏覽器直接呼叫（因為CORS 限制），因此新增了 `server.js`，作為前端與 KKBOX API 之間的proxy。
+由於 KKBOX API 不允許從瀏覽器直接呼叫（因為CORS 限制），因此新增了 server.js ，並在其中利用 fetch() 呼叫 KKBOX Token API:
+```js
+    const url = `https://api.kkbox.com/v1.1/featured-playlists/${id}?territory=${territory}`;
+    const r = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+```
 
-#### `server.js`:
-- 轉播放清單資料給前端
-
-(1) 取得 Token：
-```bash
-POST http://localhost:4000/kkbox/token
-```
-(2) 讀取播放清單：
-```bash
-https://api.kkbox.com/v1.1/featured-playlists/{PLAYLIST_ID}
-```
-(3) 由伺服器再轉發至 KKBOX：
-```
-https://api.kkbox.com/v1.1/featured-playlists/{PLAYLIST_ID}?territory=TW
-```
 #### | 執行方式
 
 (1) 安裝後端並啟動（PORT: 4000）：
