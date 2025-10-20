@@ -91,11 +91,13 @@
 我在我的個人網站上串接了兩個api
 ### | 使用的 API
 ### 1. Github API
+<img src="/img/hw3_repo.png" width="500"/>
 `GithubRepo.jsx` 用fetch()呼叫 GitHub API:
 ```jsx
 const res = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, { headers });
 ```
 ### 2. KKBOX API
+<img src="/img/hw3_kkbox.png" width="500"/>
 此API用來顯示我的播放清單（含封面、歌名、歌手），並新增一個設定面板(可隱藏)，可輸入 Client ID / Client Secret ，按下取得 Token 後將會自動連線至 KKBOX 並載入我的播放清單。
 #### | 功能
 - 顯示播放清單標題、歌曲清單與專輯封面
