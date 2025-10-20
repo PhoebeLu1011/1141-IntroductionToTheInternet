@@ -13,7 +13,7 @@
 
 ### HW3 
 * [Repo.](https://github.com/PhoebeLu1011/1141ITTI_HW3)
-* [展示 YT Link]()
+* [展示 YT Link](https://youtu.be/ylLsdZcfeHw)
 * [Description](#HW3-個人網站串接API)
 
 ### homework1
