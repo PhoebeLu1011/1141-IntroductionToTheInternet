@@ -91,7 +91,9 @@
 我在我的個人網站上串接了兩個api
 ### | 使用的 API
 ### 1. Github API
+
 <img src="/img/hw3_repo.png" width="500"/>
+
 `GithubRepo.jsx` 用fetch()呼叫 GitHub API:
 ```jsx
 const res = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, { headers });
