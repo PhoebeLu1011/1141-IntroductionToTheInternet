@@ -91,7 +91,11 @@
 我在我的個人網站上串接了兩個api
 ### | 使用的 API
 ### 1. Github API
-
+`GithubRepo.jsx`:
+```jsx
+const res = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`, { headers });
+        if (!res.ok) {
+```
 ### 2. KKBOX API
 此API用來顯示我的播放清單（含封面、歌名、歌手），並新增一個設定面板(可隱藏)，可輸入 Client ID / Client Secret ，按下取得 Token 後將會自動連線 KKBOX 並載入清單。
 #### | 功能
@@ -126,8 +130,7 @@ if (el) {
 
 #### `server.js`:
 - 向 KKBOX 申請 Access Token
-- 轉發播放清單資料給前端
-- 避免暴露 Client Secret 並繞過 CORS 限制
+- 轉播放清單資料給前端
 
 (1) 取得 Token：
 ```bash
@@ -149,7 +152,7 @@ npm install express node-fetch cors
 node server.js
 ```
 
-(2) 另開cmd啟動前端（PORT: 5173）：
+(2) 另外開一個cmd啟動前端（PORT: 5173）：
 ```cmd
 npm install
 npm run dev
