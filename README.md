@@ -1,6 +1,8 @@
 ## **Course:** 114-1 Introduction to the Internet
 
 ## Table of Contents
+### Final Project - Breezy Day
+### [Repo.](https://github.com/PhoebeLu1011/BreezyDay)
 ### HW1
 * [Repo.](https://github.com/PhoebeLu1011/personalweb)
 * [Description](#homework1)
