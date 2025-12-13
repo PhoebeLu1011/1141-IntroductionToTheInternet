@@ -2,7 +2,7 @@
 
 ## Table of Contents
 ### Final Project - Breezy Day
-* [Repo.](https://github.com/PhoebeLu1011/BreezyDay)
+* [Repo.](https://github.com/PhoebeLu1011/BreezyDay)/[YT](https://youtu.be/x_4jhf-zvhI)
 ### HW1
 * [Repo.](https://github.com/PhoebeLu1011/personalweb)
 * [Description](#homework1)
