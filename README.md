@@ -3,7 +3,12 @@
 ## Table of Contents
 
 ## Final Project - Breezy Day
-### [Repo.](https://github.com/PhoebeLu1011/BreezyDay)/[YT](https://youtu.be/x_4jhf-zvhI)
+### [Repo.](https://github.com/PhoebeLu1011/BreezyDay)/[YT](https://youtu.be/x_4jhf-zvhI)/[Website](https://breezyday-8z2u.onrender.com)
+組員:
+
+41271122H 盧姵帆
+
+41171131H 李怡安
 
 ## HW Overview
 |HW|Repo./Code|Video|Description|Website|Extra Point|
