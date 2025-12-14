@@ -1,26 +1,18 @@
 ## **Course:** 114-1 Introduction to the Internet
 
 ## Table of Contents
-### Final Project - Breezy Day
-* [Repo.](https://github.com/PhoebeLu1011/BreezyDay)/[YT](https://youtu.be/x_4jhf-zvhI)
-### HW1
-* [Repo.](https://github.com/PhoebeLu1011/personalweb)
-* [Description](#homework1)
 
-### HW2
-* [程式碼](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/tree/main/HW2)
-* [台北城市儀表板 API 呼叫展示 YT Link](https://youtu.be/zo0HDsH75ZI)
-* [AI API 串接展示 YT Link](https://youtu.be/J5DNlgfXk50)
-* [Description](#homework2)
+## Final Project - Breezy Day
+### [Repo.](https://github.com/PhoebeLu1011/BreezyDay)/[YT](https://youtu.be/x_4jhf-zvhI)
 
-### HW3 
-* [Repo.](https://github.com/PhoebeLu1011/1141ITTI_HW3)
-* [展示 YT Link](https://youtu.be/ylLsdZcfeHw)
-* [Description](#HW3-個人網站串接API)
+## HW Overview
+|HW|Repo./Code|Video|Description|Website|Extra Point|
+|---|---|---|---|---|---|
+|HW1|[Repo.](https://github.com/PhoebeLu1011/personalweb)|-|[Description](#homework1)|[My Personal Website](https://phoebelu1011.github.io/personalweb/)|[NTNU Website](https://web.ntnu.edu.tw/~41271122h/)|
+|HW2|[Code](https://github.com/PhoebeLu1011/1141-IntroductionToTheInternet/tree/main/HW2)|[台北城市儀表板API](https://youtu.be/zo0HDsH75ZI)/[AI API](https://youtu.be/J5DNlgfXk50)|[Description](#homework2)|-|-|
+|HW3|[Repo.](https://github.com/PhoebeLu1011/1141ITTI_HW3)|[Demo](https://youtu.be/ylLsdZcfeHw)|[Description](#HW3)|-|[Repo.](https://github.com/PhoebeLu1011/TravelRecord)/[Render](https://travelrecord.onrender.com)|
+|HW4|[Repo.](https://github.com/PhoebeLu1011/1141ITTI_HW3)|-|-|[Render](https://one141internet-hw3.onrender.com)|[Railway](1141ittihw3-production.up.railway.app)|
 
-### HW4
-* [Render](https://one141internet-hw3.onrender.com)
-* [Repo.](https://github.com/PhoebeLu1011/1141ITTI_HW3)
 
 ### homework1
 ### Personal Website
@@ -93,7 +85,9 @@
     }
    ```
 
-### HW3-個人網站串接API
+### HW3
+個人網站串接API
+
 我在我的個人網站上串接了兩個api
 ### | 使用的 API
 ### 1. Github API
